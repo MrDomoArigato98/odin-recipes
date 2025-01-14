@@ -16,12 +16,20 @@ body {
 img{
     height: 250px;
     width: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    
 }
 
-.home-title{
+h1{
 text-align: center;
 }
 
+.description,p{
+    text-align: center;
+}
 #recipe-list{
     padding: 50px;
 }
@@ -47,18 +55,14 @@ text-align: center;
     padding: 2px;
     
 }
-
 .directions li{
     padding: 2px;
-    
 }
 
 h3{
-    border: 1px solid black;
     border-radius: 5px;
     padding: 10px 15px;
-    display:inline-block;
-    width:fit-content;
+    text-align: center;
 }
 
 a.home-link:link, a.home-link:visited{
