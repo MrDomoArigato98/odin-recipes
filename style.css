@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    display: inline-block;
 }
 *,
 *::before,
@@ -17,21 +18,47 @@ img{
     width: auto;
 }
 
+.home-title{
+text-align: center;
+}
 
+#recipe-list{
+    padding: 50px;
+}
+#recipe-list a{
+    display:inline-block;
+    box-sizing: border-box;
+    background-color: white;
+    /* padding: 20px; */
+    height: 60px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    text-align:center;
+    line-height: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
 .ingredients li{
     color: black;
     text-shadow: 1px 1px wheat;
     padding: 2px;
+    
 }
 
 .directions li{
     padding: 2px;
+    
 }
 
 h3{
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px 15px;
+    display:inline-block;
+    width:fit-content;
 }
 
 a.home-link:link, a.home-link:visited{
